@@ -36,7 +36,8 @@ A **Movie Recommendation System** that suggests movies based on a selected movie
 ## 📂 Project Structure  
 
 ```plaintext
-├── app.py                # Streamlit app code  
+├── app.py      # Streamlit app code
+├──Movie-Content-Based-Recommender-System.ipynb # Jupyter notebook for developmentand   
 ├── similarity.pkl        # Precomputed cosine similarity matrix  
 ├── movies_dict.pkl       # Serialized movie data with features  
 ├── requirements.txt      # Python libraries required for the project  
