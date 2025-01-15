@@ -1,4 +1,4 @@
-# 🎥 Movie Recommendation System  
+# 🎥End-to-End Movie Recommendation System  
 
 A **Movie Recommendation System** that suggests movies based on a selected movie using **content-based filtering**. The system analyzes movie features like genres, keywords, and cast to recommend similar movies. The application is deployed using **Streamlit**, providing an interactive and user-friendly interface.
 
