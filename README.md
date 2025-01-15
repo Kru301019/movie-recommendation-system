@@ -1,3 +1,47 @@
+# 🎥 Movie Recommendation System  
+
+A **Movie Recommendation System** that suggests movies based on a selected movie using **content-based filtering**. The system analyzes movie features like genres, keywords, and cast to recommend similar movies. The application is deployed using **Streamlit**, providing an interactive and user-friendly interface.
+
+---
+
+## 🚀 Features  
+
+- **Content-Based Recommendations**  
+   Recommends movies similar to the selected one by analyzing features like genres, keywords, and cast.  
+
+- **Interactive Web App**  
+   An intuitive web application built with **Streamlit**, allowing users to interact with the recommendation system.  
+
+- **Movie Posters Integration**  
+   Fetches and displays movie posters using the **TMDB API**, enhancing the visual experience.  
+
+- **Top 5 Recommendations**  
+   Displays the 5 most similar movies to the user's selection.
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Programming Language**: Python  
+- **Libraries**:  
+   - Machine Learning: `scikit-learn`, `nltk`  
+   - Data Handling: `pandas`, `numpy`  
+   - Web App Deployment: `Streamlit`  
+   - Visualization: `matplotlib`, `seaborn`  
+- **API**: TMDB API for fetching movie posters  
+- **Data**: TMDB 5000 Movie Dataset  
+
+---
+
+## 📂 Project Structure  
+
+```plaintext
+├── app.py                # Streamlit app code  
+├── similarity.pkl        # Precomputed cosine similarity matrix  
+├── movies_dict.pkl       # Serialized movie data with features  
+├── requirements.txt      # Python libraries required for the project  
+└── README.md             # Project documentation  
+
 ## 🧠 How It Works
 
 ### Data Preprocessing
